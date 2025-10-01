@@ -29,7 +29,7 @@ curl -X POST "[http://127.0.0.1:8000/predict](http://127.0.0.1:8000/predict)" \
 
 ---
 
-### ## 📊 Key Results & Visualizations
+### 📊 Key Results & Visualizations
 
 The final tuned XGBoost model significantly outperforms the naive baseline, demonstrating a strong ability to identify at-risk customers while maintaining high confidence in its predictions.
 
@@ -47,7 +47,7 @@ The final tuned XGBoost model significantly outperforms the naive baseline, demo
 
 ---
 
-### ## 🛠️ Operational AI Skills Demonstrated
+### 🛠️ Operational AI Skills Demonstrated
 
 This project was engineered to reflect the best practices of operationalizing AI, ensuring the final product is reliable, safe, and efficient.
 
@@ -74,7 +74,7 @@ This project was engineered to reflect the best practices of operationalizing AI
 
 ---
 
-### ## 💻 Tech Stack
+### 💻 Tech Stack
 
 * **Modeling**: `tidymodels`, `recipes`, `parsnip`, `xgboost`
 * **Imbalance Handling**: `themis` (for SMOTE) 
@@ -84,7 +84,7 @@ This project was engineered to reflect the best practices of operationalizing AI
 
 ---
 
-### ## 🔬 Methodology
+### 🔬 Methodology
 
 1.  **EDA & Baseline**: The Telco dataset was loaded and explored, confirming a churn rate of ~27%. A naive baseline model (always predicting "No Churn") was established, which has an accuracy of ~73% but a recall of 0 for finding churners.
 2.  **Preprocessing**: A `tidymodels` recipe was built to handle data preparation. This included dummy coding for categorical variables, normalizing numeric predictors, and applying SMOTE to synthetically balance the training data, which is a crucial step for handling class imbalance.
@@ -95,7 +95,7 @@ This project was engineered to reflect the best practices of operationalizing AI
 
 ---
 
-### ## 🚀 How to Run
+### 🚀 How to Run
 
 **1. Setup the Environment**
 
